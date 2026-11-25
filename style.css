@@ -65,6 +65,15 @@ article p { margin-block-end: 0; }
 .terms { max-width: 82ch; padding-inline-start: .9rem; border-inline-start: 2px solid var(--accent); }
 .footer-inner { justify-content: space-between; }
 footer.topbar { border-block-start: 1px solid var(--line); border-block-end: none; }
+.research-update {
+  max-width: 52rem;
+  padding: 1.2rem 1.4rem;
+  margin-block-start: 1.7rem;
+  background: #112324;
+  border: 1px solid var(--line);
+  border-radius: .35rem;
+}
+.research-update h3 { line-height: 1.2; }
 @media (max-width: 740px) {
   .wrap { width: min(100% - 2rem, 41rem); }
   .hero, .fund-grid { grid-template-columns: 1fr; gap: 1.25rem; }
